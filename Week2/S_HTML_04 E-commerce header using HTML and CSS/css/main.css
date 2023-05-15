@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+/* Start Navbar */
+.navbar {
+    background-color: #3d464d;
+    display: flex;
+    padding: 0 2%;
+    justify-content: space-between;
+}
+/* navbar left side */
+.navbar .left-part {
+    width: 70%;
+    display: flex;
+
+}
+
+.navbar .left-part div {
+    background-color: #ffd334;
+    padding: 2% 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.navbar .left-part p {
+    width: 95%;
+}
+
+.navbar .left-part p span {
+    padding: 0 4%;
+}
+/* Navbar items */
+.navbar .left-part .nav-items {
+    list-style-type: none;
+    color: aliceblue;
+    width: 65%;
+    padding: 2% 3%;
+}
+
+.navbar .left-part .nav-items li {
+    display: inline-block;
+    margin-right: 3%;
+}
+
+.navbar .left-part .nav-items li:hover {
+    display: inline-block;
+    margin-right: 3%;
+}
+
+.navbar .left-part .nav-items li:first-child {
+    color: #ffd334;
+}
+/* End Navbar items */
+/*  Navbar right side */
+.navbar .right-part {
+    display: flex;
+    width: 15%;
+}
+
+.navbar .right-part div {
+    padding: 10% 7%;
+    display: flex;
+    width: 35%;
+
+
+}
+
+.navbar .right-part div i {
+    color: #ffd334;
+    margin-right: 6%;
+}
+
+.navbar .right-part div span {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid aliceblue;
+    width: 20px;
+    height: auto;
+    border-radius: 50%;
+}
